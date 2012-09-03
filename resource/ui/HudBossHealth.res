@@ -1,0 +1,126 @@
+"Resource/UI/HudBossHealth.res"
+{
+	"BorderImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BorderImage"	
+		"xpos"			"1000"
+		"ypos"			"0"
+		"zpos"			"5"
+		"wide"			"200"
+		"tall"			"50"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"image"			"../hud/halloween_bar_surround"
+		"scaleImage"	"1"					
+	}
+	
+	"EyeImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"EyeImage"	
+		"xpos"			"-8"
+		"ypos"			"-9"
+		"zpos"			"5"
+		"wide"			"50"
+		"tall"			"50"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"image"			"../backpack/player/items/all_class/haunted_eyeball_hat"
+		"scaleImage"	"1"					
+	}
+	"BG"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"BG"
+		"xpos"			"10"
+		"ypos"			"1"
+		"zpos"			"1"
+		"wide"			"188"
+		"tall"	 		"28"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/color_panel_brown"
+		"scaleImage"	"1"
+		
+		"src_corner_height"		"60"		// pixels inside the image
+		"src_corner_width"		"60"
+		
+		"draw_corner_width"		"10"		// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"10"
+	}
+	
+	"HealthBarPanel"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"HealthBarPanel"
+		"xpos"				"25"
+		"ypos"				"6"
+		"zpos"				"4"
+		"wide"				"168"
+		"tall"				"18"
+		"visible"			"1"
+		"enabled"			"1"
+		
+		"BarImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"BarImage"	
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"5"
+			"wide"			"168"
+			"tall"			"18"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"image"			"../hud/halloween_bar"
+			"scaleImage"	"1"					
+		}
+	}
+	"BG_chargemeter"
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"BG_chargemeter"
+		"xpos"					"25"
+		"ypos"					"6"
+		"zpos"					"3"
+		"wide"					"168"
+		"tall"					"18"
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"fillcolor"				"130 130 130 150"
+		"PaintBackgroundType"	"0"
+	}				
+
+	"StunMeter"
+	{	
+		"ControlName"	"ContinuousProgressBar"
+		"fieldName"		"StunMeter"
+		"font"			"Default"
+		"xpos"			"50"
+		"ypos"			"19"
+		"zpos"			"2"
+		"wide"			"100"
+		"tall"			"8"				
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"Left"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"fgcolor_override"	"255 255 0 255"
+		"bgcolor_override"	"50 0 0 255"
+	}					
+}
